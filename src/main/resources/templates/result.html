@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>자기소개 결과 화면</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+  </style>
+</head>
+<h1>자기소개</h1>
+<p>안녕하세요! 저는 <span th:text="${person.age}"></span>살이고<span th:text="${person.mbti}"></span>이며 <span th:text="${person.food}"></span>좋아하고 <span th:text="${person.color}"></span>을 좋아해요!</p>
+<body>
+</body>
+
+</html>
